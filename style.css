@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --Grayish-blue:hsl(233,8%,79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Soft-orange: hsl(35, 77%, 62%);
+}
+body{
+    font-family: "Inter";
+}
+.link{
+    color: var(--Dark-grayish-blue);
+}
+.new_articles{
+    font-family: "Inter";
+    color: white;
+}
+
+.article a{
+
+    color: hsl(36, 100%, 99%);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: inline-block;
+    transition: 0.5s color ease;
+  }
+  .article a:hover{
+      color:var(--Soft-orange) ;
+  }
+  .heading {
+    font-size:2.5em ;
+    margin-top: 7px;
+    color:var(--Soft-orange) ;
+  }
+  .button{
+    transition: 0.5s color ease;
+  }
+  .button:hover{
+    background-color: black;
+    color: white;
+  }
+  .new_article img{
+    max-width:120px;
+ }
+ .content h2 {
+    color: hsl(233, 8%, 79%);
+     font-size: 2em;
+ } 
+  .content h3{
+    font-size: 1em;
+    transition: .5s color ease;
+}
+.content h3:hover{
+    color:var(--Soft-red) ;
+}
